@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D512078B193F5DB000E6600E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512078A193F5DB000E6600E /* AppDelegate.swift */; };
+		D512078D193F5DB000E6600E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D512078C193F5DB000E6600E /* GameScene.sks */; };
+		D512078F193F5DB000E6600E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512078E193F5DB000E6600E /* GameScene.swift */; };
+		D5120791193F5DB000E6600E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5120790193F5DB000E6600E /* GameViewController.swift */; };
+		D5120794193F5DB000E6600E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5120792193F5DB000E6600E /* Main.storyboard */; };
+		D5120796193F5DB000E6600E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5120795193F5DB000E6600E /* Images.xcassets */; };
+		D51207A2193F5DB000E6600E /* CrazyBlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51207A1193F5DB000E6600E /* CrazyBlockTests.swift */; };
+		D52E4437194204D30002986D /* VOPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E4436194204D30002986D /* VOPosition.swift */; };
+		D52E443919420F620002986D /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E443819420F620002986D /* Brick.swift */; };
+		D52E443B1942AC2E0002986D /* RandomNumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E443A1942AC2E0002986D /* RandomNumberGenerator.swift */; };
+		D52E443D1942B10E0002986D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E443C1942B10E0002986D /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D512079C193F5DB000E6600E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D512077D193F5DAF00E6600E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5120784193F5DAF00E6600E;
+			remoteInfo = CrazyBlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5120785193F5DAF00E6600E /* CrazyBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5120789193F5DB000E6600E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D512078A193F5DB000E6600E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D512078C193F5DB000E6600E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D512078E193F5DB000E6600E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D5120790193F5DB000E6600E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D5120793193F5DB000E6600E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5120795193F5DB000E6600E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D512079B193F5DB000E6600E /* CrazyBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51207A0193F5DB000E6600E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51207A1193F5DB000E6600E /* CrazyBlockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyBlockTests.swift; sourceTree = "<group>"; };
+		D52E4436194204D30002986D /* VOPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VOPosition.swift; sourceTree = "<group>"; };
+		D52E443819420F620002986D /* Brick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
+		D52E443A1942AC2E0002986D /* RandomNumberGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNumberGenerator.swift; sourceTree = "<group>"; };
+		D52E443C1942B10E0002986D /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5120782193F5DAF00E6600E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5120798193F5DB000E6600E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D512077C193F5DAF00E6600E = {
+			isa = PBXGroup;
+			children = (
+				D5120787193F5DAF00E6600E /* CrazyBlock */,
+				D512079E193F5DB000E6600E /* CrazyBlockTests */,
+				D5120786193F5DAF00E6600E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5120786193F5DAF00E6600E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5120785193F5DAF00E6600E /* CrazyBlock.app */,
+				D512079B193F5DB000E6600E /* CrazyBlockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5120787193F5DAF00E6600E /* CrazyBlock */ = {
+			isa = PBXGroup;
+			children = (
+				D52E4436194204D30002986D /* VOPosition.swift */,
+				D512078A193F5DB000E6600E /* AppDelegate.swift */,
+				D52E443A1942AC2E0002986D /* RandomNumberGenerator.swift */,
+				D52E443819420F620002986D /* Brick.swift */,
+				D52E443C1942B10E0002986D /* Data.swift */,
+				D512078C193F5DB000E6600E /* GameScene.sks */,
+				D512078E193F5DB000E6600E /* GameScene.swift */,
+				D5120790193F5DB000E6600E /* GameViewController.swift */,
+				D5120792193F5DB000E6600E /* Main.storyboard */,
+				D5120795193F5DB000E6600E /* Images.xcassets */,
+				D5120788193F5DAF00E6600E /* Supporting Files */,
+			);
+			path = CrazyBlock;
+			sourceTree = "<group>";
+		};
+		D5120788193F5DAF00E6600E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5120789193F5DB000E6600E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D512079E193F5DB000E6600E /* CrazyBlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D51207A1193F5DB000E6600E /* CrazyBlockTests.swift */,
+				D512079F193F5DB000E6600E /* Supporting Files */,
+			);
+			path = CrazyBlockTests;
+			sourceTree = "<group>";
+		};
+		D512079F193F5DB000E6600E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D51207A0193F5DB000E6600E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5120784193F5DAF00E6600E /* CrazyBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51207A5193F5DB000E6600E /* Build configuration list for PBXNativeTarget "CrazyBlock" */;
+			buildPhases = (
+				D5120781193F5DAF00E6600E /* Sources */,
+				D5120782193F5DAF00E6600E /* Frameworks */,
+				D5120783193F5DAF00E6600E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazyBlock;
+			productName = CrazyBlock;
+			productReference = D5120785193F5DAF00E6600E /* CrazyBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D512079A193F5DB000E6600E /* CrazyBlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51207A8193F5DB000E6600E /* Build configuration list for PBXNativeTarget "CrazyBlockTests" */;
+			buildPhases = (
+				D5120797193F5DB000E6600E /* Sources */,
+				D5120798193F5DB000E6600E /* Frameworks */,
+				D5120799193F5DB000E6600E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D512079D193F5DB000E6600E /* PBXTargetDependency */,
+			);
+			name = CrazyBlockTests;
+			productName = CrazyBlockTests;
+			productReference = D512079B193F5DB000E6600E /* CrazyBlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D512077D193F5DAF00E6600E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = air;
+				TargetAttributes = {
+					D5120784193F5DAF00E6600E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					D512079A193F5DB000E6600E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D5120784193F5DAF00E6600E;
+					};
+				};
+			};
+			buildConfigurationList = D5120780193F5DAF00E6600E /* Build configuration list for PBXProject "CrazyBlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D512077C193F5DAF00E6600E;
+			productRefGroup = D5120786193F5DAF00E6600E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5120784193F5DAF00E6600E /* CrazyBlock */,
+				D512079A193F5DB000E6600E /* CrazyBlockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5120783193F5DAF00E6600E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5120796193F5DB000E6600E /* Images.xcassets in Resources */,
+				D512078D193F5DB000E6600E /* GameScene.sks in Resources */,
+				D5120794193F5DB000E6600E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5120799193F5DB000E6600E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5120781193F5DAF00E6600E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52E443D1942B10E0002986D /* Data.swift in Sources */,
+				D52E443919420F620002986D /* Brick.swift in Sources */,
+				D512078F193F5DB000E6600E /* GameScene.swift in Sources */,
+				D52E4437194204D30002986D /* VOPosition.swift in Sources */,
+				D5120791193F5DB000E6600E /* GameViewController.swift in Sources */,
+				D512078B193F5DB000E6600E /* AppDelegate.swift in Sources */,
+				D52E443B1942AC2E0002986D /* RandomNumberGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5120797193F5DB000E6600E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51207A2193F5DB000E6600E /* CrazyBlockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D512079D193F5DB000E6600E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5120784193F5DAF00E6600E /* CrazyBlock */;
+			targetProxy = D512079C193F5DB000E6600E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5120792193F5DB000E6600E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5120793193F5DB000E6600E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D51207A3193F5DB000E6600E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D51207A4193F5DB000E6600E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D51207A6193F5DB000E6600E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CrazyBlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D51207A7193F5DB000E6600E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CrazyBlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D51207A9193F5DB000E6600E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrazyBlock.app/CrazyBlock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrazyBlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		D51207AA193F5DB000E6600E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrazyBlock.app/CrazyBlock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrazyBlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5120780193F5DAF00E6600E /* Build configuration list for PBXProject "CrazyBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51207A3193F5DB000E6600E /* Debug */,
+				D51207A4193F5DB000E6600E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51207A5193F5DB000E6600E /* Build configuration list for PBXNativeTarget "CrazyBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51207A6193F5DB000E6600E /* Debug */,
+				D51207A7193F5DB000E6600E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51207A8193F5DB000E6600E /* Build configuration list for PBXNativeTarget "CrazyBlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51207A9193F5DB000E6600E /* Debug */,
+				D51207AA193F5DB000E6600E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D512077D193F5DAF00E6600E /* Project object */;
+}
